@@ -1,0 +1,49 @@
+﻿<Window x:Class="TimeSpanAxis_Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeSpanAxis_Sample"
+        xmlns:chart="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <chart:SfChart>
+            <chart:SfChart.DataContext>
+                <local:ViewModel/>
+            </chart:SfChart.DataContext>
+            <chart:SfChart.PrimaryAxis>
+
+                <chart:TimeSpanAxis Minimum="00:00:00" 
+                                    EdgeLabelsDrawingMode="Shift" 
+                                    Maximum="00:00:10" 
+                                    LabelFormat="mm\:ss\:fff">
+                    <chart:TimeSpanAxis.Header>
+                        <Label FontWeight="Bold"  
+                               Content="Time in (mm:ss:fff)"/>
+                    </chart:TimeSpanAxis.Header>
+                </chart:TimeSpanAxis>
+            </chart:SfChart.PrimaryAxis>
+
+            <chart:SfChart.SecondaryAxis  >
+                <chart:NumericalAxis Minimum="50" Maximum="700" >
+                    <chart:NumericalAxis.Header>
+                        <Label Content="Distance in (meters)" 
+                               FontWeight="Bold" />
+                    </chart:NumericalAxis.Header>
+                </chart:NumericalAxis>
+            </chart:SfChart.SecondaryAxis>
+            
+            <chart:SfChart.Series>
+                <chart:SplineSeries XBindingPath="Time" 
+                                    Interior="Purple" 
+                                    YBindingPath="Distance" 
+                                    ItemsSource="{Binding Data}" >
+                    <chart:SplineSeries.AdornmentsInfo>
+                        <chart:ChartAdornmentInfo ShowLabel="True" />
+                    </chart:SplineSeries.AdornmentsInfo>
+                </chart:SplineSeries>
+            </chart:SfChart.Series>
+        </chart:SfChart>
+    </Grid>
+</Window>
