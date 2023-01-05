@@ -2,7 +2,7 @@
 This sample demonstrate how to format TimeSpanAxis label based on axis interval in WPF (SfChart)
 WPF SfChart provides support for formatting axis labels based on axis intervals in TimeSpanAxis. The LabelFormat Property can be used to apply predefined formatting types based on usages. This article explains how to format TimeSpanAxis label based on axis interval in WPF (SfChart)
 
-[Xaml]
+##[Xaml]
 ````
 <chart:SfChart>
             <chart:SfChart.DataContext>
@@ -43,7 +43,7 @@ WPF SfChart provides support for formatting axis labels based on axis intervals 
         </chart:SfChart>
 ````
 
-[C#]
+##[C#]
 ````
   SfChart chart = new SfChart();
             this.DataContext = new ViewModel();
@@ -91,15 +91,15 @@ WPF SfChart provides support for formatting axis labels based on axis intervals 
             chart.Series.Add(series);
             this.Content = chart;
 ````
-Output
+##Output
  
  
 
-See Also
+##See Also
 
-	[Axis labels for TimeSpanAxis in WPF (SfChart)](https://help.syncfusion.com/wpf/charts/axis#axis-labels)
+[Axis labels for TimeSpanAxis in WPF (SfChart)](https://help.syncfusion.com/wpf/charts/axis#axis-labels)
 	
-	[How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
+[How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
 	
- 	[How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf)
+[How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf)
 
