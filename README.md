@@ -93,7 +93,7 @@ WPF SfChart provides support for formatting axis labels based on axis intervals 
 ````
 ##Output
  
- ![NewOutput](https://user-images.githubusercontent.com/105482474/210713236-06d1982b-352b-45aa-986a-a94ea2eb407d.png) 
+  ![Output](https://user-images.githubusercontent.com/105482474/211509266-b28301df-9f64-4c2b-8f79-e9cf258b2723.png)
 
 ##See Also
 
