@@ -101,5 +101,11 @@ WPF SfChart provides support for formatting axis labels based on axis intervals 
 	
 [How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
 	
-[How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf)
+## Troubleshooting
+
+#### Path too long exception
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+For more details, refer to the KB on [How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf).
 
