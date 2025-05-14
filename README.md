@@ -95,17 +95,20 @@ WPF SfChart provides support for formatting axis labels based on axis intervals 
  
   ![Output](https://user-images.githubusercontent.com/105482474/211509266-b28301df-9f64-4c2b-8f79-e9cf258b2723.png)
 
-##See Also
-
-[Axis labels for TimeSpanAxis in WPF (SfChart)](https://help.syncfusion.com/wpf/charts/axis#axis-labels)
-	
-[How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
-	
 ## Troubleshooting
 
 #### Path too long exception
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf).
+For more details, refer to the KB on [How to format TimeSpanAxis label based on axis interval in WPF (SfChart)](https://support.syncfusion.com/kb/article/12317/how-to-format-timespanaxis-label-based-on-axis-interval-in-wpf-sfchart).
+
+
+##See Also
+
+[Axis labels for TimeSpanAxis in WPF (SfChart)](https://help.syncfusion.com/wpf/charts/axis#axis-labels)
+	
+[How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
+	
+
 
