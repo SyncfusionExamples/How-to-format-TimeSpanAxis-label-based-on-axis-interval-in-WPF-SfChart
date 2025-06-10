@@ -109,6 +109,5 @@ For more details, refer to the KB on [How to format TimeSpanAxis label based on 
 [Axis labels for TimeSpanAxis in WPF (SfChart)](https://help.syncfusion.com/wpf/charts/axis#axis-labels)
 	
 [How to display the axis labels in a particular format](https://www.syncfusion.com/kb/3318/how-to-display-the-axis-labels-in-a-particular-format-of-wpf-chart-sfchart)
-	
 
-
+[How to customize label formats of data-time axis during the interval transitions](https://www.syncfusion.com/kb/6940/how-to-customize-the-label-formats-of-date-time-axis-during-interval-transitions-in-wpf)
